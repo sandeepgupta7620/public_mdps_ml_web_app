@@ -21,13 +21,13 @@ local_css("C:/Users/ASUS/Desktop/Multiple Disease Prediction System/style/style.
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple Disease Prediction System/saved models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple Disease Prediction System/saved models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple Disease Prediction System/saved models/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav','rb'))
 
-breast_cancer_model = pickle.load(open('C:/Users/ASUS/Desktop/Multiple Disease Prediction System/saved models/breast_cancer_model.sav','rb'))
+breast_cancer_model = pickle.load(open('breast_cancer_model.sav','rb'))
 
 # sidebar for navigate
 
